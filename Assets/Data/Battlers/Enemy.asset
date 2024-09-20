@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadd79cc97bd85e43bf49a5dc9a07f30, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  name: "\u30CD\u30B3"
+  maxHP: 50
+  at: 10
+  sprite: {fileID: -766630566, guid: 4ae19b0ad9cd19d4fa8489952464e008, type: 3}
+  learnableMove:
+  - moveBase: {fileID: 11400000, guid: 35143fb16e4bd304aa0d4bc7f414aab2, type: 2}
+    level: 0
+  exp: 100

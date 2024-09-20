@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadd79cc97bd85e43bf49a5dc9a07f30, type: 3}
+  m_Name: Bos
+  m_EditorClassIdentifier: 
+  name: "\u8056\u306A\u308B\u9B54\u738B"
+  maxHP: 100
+  at: 10
+  sprite: {fileID: 1592906472, guid: 4ae19b0ad9cd19d4fa8489952464e008, type: 3}
+  learnableMove:
+  - moveBase: {fileID: 11400000, guid: 6597573beb3533f4d94edc1c44fd939c, type: 2}
+    level: 0
+  exp: 100
